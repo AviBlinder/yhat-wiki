@@ -22,11 +22,9 @@
   - Admin App Starters
     - yhat_dashboard
     - yhat_virtual_dashboard
-- Yhat Server Client
-  - Commands
-    - each
-    - command
-    - here
+- Exacutables
+    - Scripts
+    - Yhat Server Client
 - Container Apps
   - Deployer
     - handles deployments

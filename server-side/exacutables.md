@@ -1,10 +1,34 @@
 # Server Side
 
-## Yhat Server Client
+## Exacutables
+
+### Scripts
+
+- [`yhat-config-storage`](#yhat-config-storage)
+- [`yhat-memory-usage`](#yhat-memory-usage)
+- [`yhat-server-status`](#yhat-server-status)
+- [`yhat-upgrade`](#yhat-upgrade)
+- [`yhat-watch`](#yhat-watch)
+
+#### `yhat-config-storage`
+Configure a local Headquarters. This is only necessary for using a local repo. If remote, then you'll need to add the required SSH KEY via [`yhat add-private-key`](#add-private-key) and use [`yhat headquarters`](#headquarters).
+
+#### `yhat-memory-usage`
+Returns the memory usage for all running containers.
+
+#### `yhat-server-status`
+Compares the number of `deploy_orders` jobs that are processing and the number of running docker containers to see if all orders are up. Also checks the status, be it online, failed, or building, for each model.
+
+#### `yhat-upgrade`
+Upgrades your entire Yhat server. You should first run `yhat stop` and make sure everything has stopped running before upgrading.
+
+#### `yhat-watch`
+Monitors the status of all running containers.
+
+
+### Yhat Server Client
 
 This is a command line tool for performing various functions. It is written in go. The commands available are listed below. I grouped them according to the purpose they serve.
-
-### Commands
 
 - [`help`](#help)
 
