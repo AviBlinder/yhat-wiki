@@ -44,6 +44,8 @@ This compares the centralized Headquarters git repo to the local repo. If a chan
 
 #### `yhat_monitor_orders`
 Each Headquarters has a directory structure like the following:
+
+```tex
 .
 ├── README.md
 ├── uploads/
@@ -63,6 +65,7 @@ Each Headquarters has a directory structure like the following:
 │       │   ├── bundle.json
 │       │   └── orders
 └── yhat.db
+```
 
 This looks at each "orders" file in the Headquarters that are generated for each model. When a new one is found it triggers `yhat_orders` for that model.
 
