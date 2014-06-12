@@ -1,6 +1,6 @@
 yhat-wiki
 ---------
 
-Documentation for ŷhat enterprise.
+Documentation for ŷhat public cloud, private cloud, and enterprise.
 
 https://github.com/yhat/yhat-wiki/wiki
