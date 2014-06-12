@@ -47,7 +47,6 @@ Each Headquarters has a directory structure like the following:
 
 ```tex
 .
-├── README.md
 ├── uploads/
 ├── deployer
 │   └── orders
