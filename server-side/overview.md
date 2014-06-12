@@ -1,16 +1,15 @@
 # Server Side
 ## Overview
 
-- Packages Installed on Server & Use Case for them
+- Packages
   - nginx
   - git
   - nodejs
   - mongodb
   - sqlite3
 - Upstart Jobs
-  - yhat (main job)
+  - yhat
   - yhat_nginx
-  - yhat_run_batch
   - yhat_reaper
   - Watchers
     - yhat_monitor_headquarters
@@ -19,10 +18,11 @@
   - Individual Model Jobs
     - yhat_orders
     - yhat_deploy_order
+    - yhat_run_batch
   - Admin App Starters
     - yhat_dashboard
     - yhat_virtual_dashboard
-- Yhat Go Server Client
+- Yhat Server Client
   - Commands
     - each
     - command

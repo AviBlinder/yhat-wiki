@@ -10,15 +10,19 @@ We have several so I grouped them into categories.
 - [`yhat`](#yhat)
 - [`yhat_nginx`](#yhat_nginx)
 - [`yhat_reaper`](#yhat_reaper)
-- [Watchers](#watchers)
+
+- ##### [Watchers](#watchers)
     - [`yhat_monitor_headquarters`](#yhat_monitor_headquarters)
     - [`yhat_monitor_orders`](#yhat_monitor_orders)
     - [`yhat_monitor_uploads`](#yhat_monitor_uploads)
-- [Individual Jobs](#individual-jobs)
+
+- ##### [Individual Jobs](#individual-jobs)
     - [`yhat_orders`](#yhat_orders)
     - [`yhat_deploy_order`](#yhat_deploy_order)
     - [`yhat_run_batch`](#yhat_run_batch)
-- [Dashboards](#dashboards)
+
+
+- ##### [Dashboards](#dashboards)
     - [`yhat_dashboard`](#yhat_dashboard)
     - [`yhat_virtual_dashboard`](#yhat_virtual_dashboard)
 
