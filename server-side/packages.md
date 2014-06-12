@@ -20,3 +20,15 @@ Each time a new model is deployed, it's route is passed to nginx so it can be ro
 Each Headquarters is a git repository. This can be pointing to a remote or local git repo. AWS AMI's are spun up and started pointing to a local git repository for the user's convienince.
 Pointing the headquarters to a remote repository, makes it easier to easily spin up an exact same Yhat Server instance with the same models living on it.
 Having the Headquarters as a git repo, makes it easy to track versions and revert models to previous versions.
+
+### nodejs
+
+The Dashboards are nodejs apps.
+
+### mongodb
+
+mongodb is used for the Yhat Cloud Users database. Because we run multiple instances of the Yhat Server to handle the amount of models Yhat Cloud manages, we needed a database we could access from all of them and easily interact with via the Admin Dashboard.
+
+### sqlite3
+
+sqlite3 is used to manage the Model database. It is great because it is a binary file saved in the Headquarters. This makes moving a Headquarters from one machine to another seamless.
