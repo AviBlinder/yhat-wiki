@@ -3,15 +3,10 @@
 
 - Packages Installed on Server & Use Case for them
   - nginx
-    - How this connects to models and the admin app
   - git
-    - About HQ
-    - How this tracks versions and makes easy for moving to a new box
-  - Node
-  - Mongo
-    - How users are stored on different enterprise types
+  - nodejs
+  - mongodb
   - sqlite3
-    - Keeps tracks of model versions, etc
 - Upstart Jobs
   - yhat (main job)
   - yhat_nginx
