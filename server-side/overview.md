@@ -6,8 +6,11 @@ Brief overview of terms we will use in the following documentation.
 
 - **Headquarters**: A directory containing model files, model database, information on users. All information tying this server instance to you are contained in here.
 - **Container**: A container is a virtual, isolated Linux os running on your server. For the use case of Yhat, we have containers that run one of two apps.
-  - **Deployer**: You will only have one container running the deployer app. The deployer handles incoming requests to deploy a model, revert a model, and destroy a model. You can view more about the deployer on the [deployer page]().
-  - **Predictor**: For each model you deploy, you will have a Predictor app running in a container for that model. The predictor is the REST API to your model, it handles HTTP requests as well as websockets. You can view more about the predictor on the [predictor page]().
+    - **Deployer**: You will only have one container running the deployer app. The deployer handles incoming requests to deploy a model, revert a model, and destroy a model. You can view more about the deployer on the [deployer page]().
+    - **Predictor**: For each model you deploy, you will have a Predictor app running in a container for that model. The predictor is the REST API to your model, it handles HTTP requests as well as websockets. You can view more about the predictor on the [predictor page]().
+- **Dashboards**: Dashboards are the apps you see when accessing your server from a web browser.
+    - **Admin Dashboard**: This is the UI for viewing your models, reverting models, etc. It is accessed by pointing your server to your IP address.
+    - **Setup Dashboard**: This is the UI for setting up your server instance. It is accessed on port 3000 of your IP address.
 
 - Packages Installed on Server & Use Case for them
   - nginx
