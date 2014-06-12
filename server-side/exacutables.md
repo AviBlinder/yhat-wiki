@@ -1,8 +1,4 @@
-# Server Side
-
-## Exacutables
-
-### Scripts
+## Scripts
 
 - [`yhat-config-storage`](#yhat-config-storage)
 - [`yhat-memory-usage`](#yhat-memory-usage)
@@ -26,42 +22,42 @@ Upgrades your entire Yhat server. You should first run `yhat stop` and make sure
 Monitors the status of all running containers.
 
 
-### Yhat Server Client
+## Yhat Server Client
 
 This is a command line tool for performing various functions. It is written in go. The commands available are listed below. I grouped them according to the purpose they serve.
 
 - [`help`](#help)
 
-- ##### [Basic](#basic)
-    - [`start`](#start)
-    - [`stop`](#stop)
-    - [`restart`](#restart)
-    - [`status`](#status)
-    - [`update`](#update)
-    - [`upgrade-interface`](#upgrade-interface)
-    - [`build-yhat-base`](#build-yhat-base)
+##### [Basic](#basic)
+- [`start`](#start)
+- [`stop`](#stop)
+- [`restart`](#restart)
+- [`status`](#status)
+- [`update`](#update)
+- [`upgrade-interface`](#upgrade-interface)
+- [`build-yhat-base`](#build-yhat-base)
 
-- ##### [Setup](#setup)
-    - [`register`](#register)
-    - [`add-private-key`](#add-private-key)
-    - [`headquarters`](#headquarters)
-    - [`config-ec2`](#config-ec2)
-    - [`set-container-dns`](#set-container-dns)
+##### [Setup](#setup)
+- [`register`](#register)
+- [`add-private-key`](#add-private-key)
+- [`headquarters`](#headquarters)
+- [`config-ec2`](#config-ec2)
+- [`set-container-dns`](#set-container-dns)
 
-- ##### [Users](#users)
-    - [`add-user`](#add-user)
-    - [`find-user`](#find-user)
-    - [`change-user-apikey`](#change-user-apikey)
-    - [`change-user-password`](#change-user-password)
+##### [Users](#users)
+- [`add-user`](#add-user)
+- [`find-user`](#find-user)
+- [`change-user-apikey`](#change-user-apikey)
+- [`change-user-password`](#change-user-password)
 
-- #### [Model Deployment](#model-deployment)
-    - [`deploy`](#deploy)
-    - [`containerize`](#containerize)
-    - [`publish`](#publish)
-    - [`is-app-up`](#is-app-up)
-    - [`unpublish`](#unpublish)
-    - [`destroy`](#destroy)
-    - [`large-model-deploy`](#large-model-deploy)
+##### [Model Deployment](#model-deployment)
+- [`deploy`](#deploy)
+- [`containerize`](#containerize)
+- [`publish`](#publish)
+- [`is-app-up`](#is-app-up)
+- [`unpublish`](#unpublish)
+- [`destroy`](#destroy)
+- [`large-model-deploy`](#large-model-deploy)
 
 #### `help`
 If ever in need you can run `yhat help` or `yhat <command> --help` to view the usage on a command.
@@ -69,7 +65,7 @@ If ever in need you can run `yhat help` or `yhat <command> --help` to view the u
 ### Basic
 These commands control starting, stopping, and updating the Dashboards, Deployer, & Predictor apps.
 
-If you are looking to upgrade all of Yhat on your server please see the [yhat-upgrade](#link to yhat-upgrade script). This is because the command line cannot update itself, the binary file, while it is running ;).
+If you are looking to upgrade all of Yhat on your server please see the [yhat-upgrade](#yhat-upgrade). This is because the command line cannot update itself, the binary file, while it is running ;).
 
 
 #### `start`

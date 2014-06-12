@@ -1,7 +1,3 @@
-# Server Side
-
-## Packages
-
 Along with our software, we install the following packages.
 
 - [nginx](#nginx)
@@ -13,7 +9,7 @@ Along with our software, we install the following packages.
 ### nginx
 
 Nginx is the webserver we use to route the incoming request. This handles requests for accessing the Dashboard, individual models, and the Deployer.
-Each time a new model is deployed, it's route is passed to nginx so it can be routed accordingly. We go into more depth about that in the [Publish](#link to yhat go cli publish page) docs.
+Each time a new model is deployed, it's route is passed to nginx so it can be routed accordingly. We go into more depth about that in the [`publish`](https://github.com/yhat/yhat-wiki/wiki/Exacutables#publish) docs.
 
 ### git
 
